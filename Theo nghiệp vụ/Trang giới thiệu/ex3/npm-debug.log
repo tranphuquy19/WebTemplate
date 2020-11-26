@@ -1,0 +1,288 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'less',
+1 verbose cli   '-g' ]
+2 info using npm@2.14.7
+3 info using node@v4.2.3
+4 verbose install initial load of /usr/local/lib/package.json
+5 verbose readDependencies loading dependencies from /usr/local/lib/package.json
+6 silly cache add args [ 'less', null ]
+7 verbose cache add spec less
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: 'less',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'less',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: '*',
+8 silly cache add   type: 'range' }
+9 silly addNamed less@*
+10 verbose addNamed "*" is a valid semver range for less
+11 silly addNameRange { name: 'less', range: '*', hasData: false }
+12 silly mapToRegistry name less
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/less
+16 verbose addNameRange registry:https://registry.npmjs.org/less not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/less
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 7:26:39 PM
+20 verbose request id c17c45b61fd2279a
+21 verbose etag "646SKWMGHL35BA8IXX7M6LS7G"
+22 http request GET https://registry.npmjs.org/less
+23 http 200 https://registry.npmjs.org/less
+24 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+24 verbose headers   etag: '"421SIF7QTZ9LBL0FXGJ3EL1HC"',
+24 verbose headers   'content-type': 'application/json',
+24 verbose headers   'cache-control': 'max-age=300',
+24 verbose headers   'content-length': '101516',
+24 verbose headers   'accept-ranges': 'bytes',
+24 verbose headers   date: 'Wed, 17 Feb 2016 19:26:39 GMT',
+24 verbose headers   via: '1.1 varnish',
+24 verbose headers   age: '176',
+24 verbose headers   connection: 'keep-alive',
+24 verbose headers   'x-served-by': 'cache-lhr6329-LHR',
+24 verbose headers   'x-cache': 'HIT',
+24 verbose headers   'x-cache-hits': '1',
+24 verbose headers   'x-timer': 'S1455737199.104893,VS0,VE0',
+24 verbose headers   vary: 'Accept' }
+25 silly get cb [ 200,
+25 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+25 silly get     etag: '"421SIF7QTZ9LBL0FXGJ3EL1HC"',
+25 silly get     'content-type': 'application/json',
+25 silly get     'cache-control': 'max-age=300',
+25 silly get     'content-length': '101516',
+25 silly get     'accept-ranges': 'bytes',
+25 silly get     date: 'Wed, 17 Feb 2016 19:26:39 GMT',
+25 silly get     via: '1.1 varnish',
+25 silly get     age: '176',
+25 silly get     connection: 'keep-alive',
+25 silly get     'x-served-by': 'cache-lhr6329-LHR',
+25 silly get     'x-cache': 'HIT',
+25 silly get     'x-cache-hits': '1',
+25 silly get     'x-timer': 'S1455737199.104893,VS0,VE0',
+25 silly get     vary: 'Accept' } ]
+26 verbose get saving less to /Users/ferran/.npm/registry.npmjs.org/less/.cache.json
+27 silly addNameRange number 2 { name: 'less', range: '*', hasData: true }
+28 silly addNameRange versions [ 'less',
+28 silly addNameRange   [ '1.0.10',
+28 silly addNameRange     '1.0.11',
+28 silly addNameRange     '1.0.14',
+28 silly addNameRange     '1.0.18',
+28 silly addNameRange     '1.0.19',
+28 silly addNameRange     '1.0.21',
+28 silly addNameRange     '1.0.32',
+28 silly addNameRange     '1.0.36',
+28 silly addNameRange     '1.0.5',
+28 silly addNameRange     '1.0.40',
+28 silly addNameRange     '1.0.41',
+28 silly addNameRange     '1.0.44',
+28 silly addNameRange     '1.1.0',
+28 silly addNameRange     '1.1.1',
+28 silly addNameRange     '1.1.2',
+28 silly addNameRange     '1.1.4',
+28 silly addNameRange     '1.1.5',
+28 silly addNameRange     '1.1.6',
+28 silly addNameRange     '1.2.0',
+28 silly addNameRange     '1.2.1',
+28 silly addNameRange     '1.2.2',
+28 silly addNameRange     '1.3.0',
+28 silly addNameRange     '1.3.1',
+28 silly addNameRange     '1.3.2',
+28 silly addNameRange     '1.3.3',
+28 silly addNameRange     '1.4.0-b1',
+28 silly addNameRange     '1.4.0-b2',
+28 silly addNameRange     '1.4.0-b3',
+28 silly addNameRange     '1.4.0-b4',
+28 silly addNameRange     '1.4.0',
+28 silly addNameRange     '1.4.1',
+28 silly addNameRange     '1.4.2',
+28 silly addNameRange     '1.5.0-b1',
+28 silly addNameRange     '1.5.0-b2',
+28 silly addNameRange     '1.5.0-b3',
+28 silly addNameRange     '1.5.0-b4',
+28 silly addNameRange     '1.5.0',
+28 silly addNameRange     '1.5.1',
+28 silly addNameRange     '1.6.0',
+28 silly addNameRange     '1.6.1',
+28 silly addNameRange     '1.6.2',
+28 silly addNameRange     '1.6.3',
+28 silly addNameRange     '1.7.0',
+28 silly addNameRange     '1.7.1',
+28 silly addNameRange     '1.7.3',
+28 silly addNameRange     '1.7.4',
+28 silly addNameRange     '1.7.5',
+28 silly addNameRange     '2.0.0-b1',
+28 silly addNameRange     '2.0.0-b2',
+28 silly addNameRange     '2.0.0-b3',
+28 silly addNameRange     '2.0.0',
+28 silly addNameRange     '2.1.0',
+28 silly addNameRange     '2.1.1',
+28 silly addNameRange     '2.1.2',
+28 silly addNameRange     '2.2.0',
+28 silly addNameRange     '2.3.0',
+28 silly addNameRange     '2.3.1',
+28 silly addNameRange     '2.4.0',
+28 silly addNameRange     '2.5.0',
+28 silly addNameRange     '2.5.1',
+28 silly addNameRange     '2.5.2',
+28 silly addNameRange     '2.5.3',
+28 silly addNameRange     '2.6.0' ] ]
+29 silly addNamed less@2.6.0
+30 verbose addNamed "2.6.0" is a plain semver version for less
+31 silly mapToRegistry name less
+32 silly mapToRegistry using default registry
+33 silly mapToRegistry registry https://registry.npmjs.org/
+34 silly mapToRegistry uri https://registry.npmjs.org/less
+35 verbose addRemoteTarball https://registry.npmjs.org/less/-/less-2.6.0.tgz not in flight; adding
+36 verbose addRemoteTarball [ 'https://registry.npmjs.org/less/-/less-2.6.0.tgz',
+36 verbose addRemoteTarball   'ba4cbf4ce5a208f266ef59eef2ec409ad1044966' ]
+37 info retry fetch attempt 1 at 7:26:39 PM
+38 info attempt registry request try #1 at 7:26:39 PM
+39 http fetch GET https://registry.npmjs.org/less/-/less-2.6.0.tgz
+40 http fetch 200 https://registry.npmjs.org/less/-/less-2.6.0.tgz
+41 silly fetchAndShaCheck shasum ba4cbf4ce5a208f266ef59eef2ec409ad1044966
+42 verbose addTmpTarball /var/folders/5_/2w6kzn415p38ht6mgym9ts600000gp/T/npm-7816-cdc4dc5b/registry.npmjs.org/less/-/less-2.6.0.tgz not in flight; adding
+43 verbose addTmpTarball already have metadata; skipping unpack for less@2.6.0
+44 silly cache afterAdd less@2.6.0
+45 verbose afterAdd /Users/ferran/.npm/less/2.6.0/package/package.json not in flight; writing
+46 verbose afterAdd /Users/ferran/.npm/less/2.6.0/package/package.json written
+47 silly install resolved [ { name: 'less',
+47 silly install resolved     version: '2.6.0',
+47 silly install resolved     description: 'Leaner CSS',
+47 silly install resolved     homepage: 'http://lesscss.org',
+47 silly install resolved     author: { name: 'Alexis Sellier', email: 'self@cloudhead.net' },
+47 silly install resolved     contributors: [ [Object] ],
+47 silly install resolved     bugs: { url: 'https://github.com/less/less.js/issues' },
+47 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/less/less.js.git' },
+47 silly install resolved     license: 'Apache-2.0',
+47 silly install resolved     bin: { lessc: './bin/lessc' },
+47 silly install resolved     main: 'index',
+47 silly install resolved     directories: { test: './test' },
+47 silly install resolved     jam: { main: './dist/less.js' },
+47 silly install resolved     browser: './dist/less.js',
+47 silly install resolved     engines: { node: '>=0.10.0' },
+47 silly install resolved     scripts: { test: 'grunt test' },
+47 silly install resolved     optionalDependencies:
+47 silly install resolved      { errno: '^0.1.1',
+47 silly install resolved        'graceful-fs': '^3.0.5',
+47 silly install resolved        'image-size': '~0.3.5',
+47 silly install resolved        mime: '^1.2.11',
+47 silly install resolved        mkdirp: '^0.5.0',
+47 silly install resolved        promise: '^6.0.1',
+47 silly install resolved        request: '^2.51.0',
+47 silly install resolved        'source-map': '^0.4.2' },
+47 silly install resolved     devDependencies:
+47 silly install resolved      { diff: '^1.0',
+47 silly install resolved        grunt: '^0.4.5',
+47 silly install resolved        'grunt-browserify': '~3.5.0',
+47 silly install resolved        'grunt-contrib-clean': '^0.6.0',
+47 silly install resolved        'grunt-contrib-concat': '^0.5.0',
+47 silly install resolved        'grunt-contrib-connect': '^0.9.0',
+47 silly install resolved        'grunt-contrib-jasmine': '^0.8.2',
+47 silly install resolved        'grunt-contrib-jshint': '^0.11.0',
+47 silly install resolved        'grunt-contrib-uglify': '^0.8.0',
+47 silly install resolved        'grunt-jscs': '^1.6.0',
+47 silly install resolved        'grunt-saucelabs': '^8.3.2',
+47 silly install resolved        'grunt-shell': '^1.1.1',
+47 silly install resolved        'jit-grunt': '^0.9.1',
+47 silly install resolved        'time-grunt': '^1.0.0' },
+47 silly install resolved     keywords:
+47 silly install resolved      [ 'compile less',
+47 silly install resolved        'css nesting',
+47 silly install resolved        'css variable',
+47 silly install resolved        'css',
+47 silly install resolved        'gradients css',
+47 silly install resolved        'gradients css3',
+47 silly install resolved        'less compiler',
+47 silly install resolved        'less css',
+47 silly install resolved        'less mixins',
+47 silly install resolved        'less',
+47 silly install resolved        'less.js',
+47 silly install resolved        'lesscss',
+47 silly install resolved        'mixins',
+47 silly install resolved        'nested css',
+47 silly install resolved        'parser',
+47 silly install resolved        'preprocessor',
+47 silly install resolved        'bootstrap css',
+47 silly install resolved        'bootstrap less',
+47 silly install resolved        'style',
+47 silly install resolved        'styles',
+47 silly install resolved        'stylesheet',
+47 silly install resolved        'variables in css',
+47 silly install resolved        'css less' ],
+47 silly install resolved     gitHead: '633e499566a05c5cb667a2183eb1478d31e6e92c',
+47 silly install resolved     dependencies:
+47 silly install resolved      { errno: '^0.1.1',
+47 silly install resolved        'graceful-fs': '^3.0.5',
+47 silly install resolved        'image-size': '~0.3.5',
+47 silly install resolved        mime: '^1.2.11',
+47 silly install resolved        mkdirp: '^0.5.0',
+47 silly install resolved        promise: '^6.0.1',
+47 silly install resolved        request: '^2.51.0',
+47 silly install resolved        'source-map': '^0.4.2' },
+47 silly install resolved     _id: 'less@2.6.0',
+47 silly install resolved     _shasum: 'ba4cbf4ce5a208f266ef59eef2ec409ad1044966',
+47 silly install resolved     _from: 'less@*',
+47 silly install resolved     _npmVersion: '3.6.0',
+47 silly install resolved     _nodeVersion: '5.4.1',
+47 silly install resolved     _npmUser: { name: 'matthew-dean', email: 'matthewdean.me@gmail.com' },
+47 silly install resolved     dist:
+47 silly install resolved      { shasum: 'ba4cbf4ce5a208f266ef59eef2ec409ad1044966',
+47 silly install resolved        tarball: 'http://registry.npmjs.org/less/-/less-2.6.0.tgz' },
+47 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+47 silly install resolved     _resolved: 'https://registry.npmjs.org/less/-/less-2.6.0.tgz' } ]
+48 info install less@2.6.0 into /usr/local/lib
+49 info installOne less@2.6.0
+50 verbose installOne of less to /usr/local/lib not in flight; installing
+51 verbose lock using /Users/ferran/.npm/_locks/less-c2213c903e2e7354.lock for /usr/local/lib/node_modules/less
+52 silly install write writing less 2.6.0 to /usr/local/lib/node_modules/less
+53 verbose unbuild lib/node_modules/less
+54 info preuninstall less@2.5.3
+55 info uninstall less@2.5.3
+56 verbose unbuild rmStuff less@2.5.3 from /usr/local/lib/node_modules
+57 silly gentlyRm /usr/local/bin/lessc is being gently removed
+58 silly gentlyRm verifying /usr/local is an npm working directory
+59 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+60 silly gentlyRm deletion target /usr/local/bin/lessc is under /usr/local
+61 verbose gentlyRm vacuuming from /usr/local/bin/lessc up to /usr/local
+62 silly vacuum-fs removing /usr/local/bin/lessc
+63 verbose unlock done using /Users/ferran/.npm/_locks/less-c2213c903e2e7354.lock for /usr/local/lib/node_modules/less
+64 verbose stack Error: EACCES: permission denied, unlink '/usr/local/bin/lessc'
+64 verbose stack     at Error (native)
+65 verbose cwd /Users/ferran/Desktop/Portfolio/newportfolio
+66 error Darwin 14.5.0
+67 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "less" "-g"
+68 error node v4.2.3
+69 error npm  v2.14.7
+70 error path /usr/local/bin/lessc
+71 error code EACCES
+72 error errno -13
+73 error syscall unlink
+74 error Error: EACCES: permission denied, unlink '/usr/local/bin/lessc'
+74 error     at Error (native)
+74 error  { [Error: EACCES: permission denied, unlink '/usr/local/bin/lessc']
+74 error   errno: -13,
+74 error   code: 'EACCES',
+74 error   syscall: 'unlink',
+74 error   path: '/usr/local/bin/lessc' }
+75 error Please try running this command again as root/Administrator.
+76 verbose exit [ -13, true ]
+77 verbose unbuild lib/node_modules/less
+78 info preuninstall less@2.5.3
+79 info uninstall less@2.5.3
+80 verbose unbuild rmStuff less@2.5.3 from /usr/local/lib/node_modules
+81 silly gentlyRm /usr/local/bin/lessc is being gently removed
+82 silly gentlyRm verifying /usr/local is an npm working directory
+83 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+84 silly gentlyRm deletion target /usr/local/bin/lessc is under /usr/local
+85 verbose gentlyRm vacuuming from /usr/local/bin/lessc up to /usr/local
+86 silly vacuum-fs removing /usr/local/bin/lessc
+87 error error rolling back Error: EACCES: permission denied, unlink '/usr/local/bin/lessc'
+87 error error rolling back     at Error (native)
+87 error error rolling back  { [Error: EACCES: permission denied, unlink '/usr/local/bin/lessc']
+87 error error rolling back   errno: -13,
+87 error error rolling back   code: 'EACCES',
+87 error error rolling back   syscall: 'unlink',
+87 error error rolling back   path: '/usr/local/bin/lessc' }
